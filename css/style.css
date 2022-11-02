@@ -2,27 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /* Utility */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
 
 .flex_end{
     justify-content: flex-end;
 }
 
+.align_center{
+    margin: 0 auto;
+    width: 70%;
+}
+
 /* button */
 .button_small{
-    background-color: blue;
+    background-color: #0061ff;
     color: white;
     border: 0;
-    padding: 5px 10px;
+    padding: 10px 10px;
 }
 
 /* header */
+
 .cont_header{
     width: 100%;
-    height: 80px;
-    background-color: black;
+    height: 60px;
+    background-color: white;
     display: flex;
     align-items: center;
 }
@@ -37,7 +52,6 @@
 .col_header_left, .col_header_right{
     width: 50%;
     height: 50px;
-    background-color: pink;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -59,11 +73,52 @@
 
 /* main */
 
+/* section 1 */
 
+.cont_sect1{
+    padding-top: 100px;
+    width: 100%;
+    background-color: #b4d0e7;
+}
+/* section 1 top */
 
+.col_sect1_top h1{
+    font-size: 60px;
+    line-height: 60px;
+    padding-top: 50px;
+}
+/* section 1 bottom */
 
+.row_sect1_bottom{
+    display: flex;
+    margin-top: 50px;
+    
 
+}
+.col_sect1_bot_left{
+    width: 40%;
+}
 
+.col_sect1_bot_right{
+    position: relative;
+    width: 60%;
+}
 
+.col_sect1_bot_right img{
+    width: 100%;
+    position: absolute;
+}
 
+.content_button{
+    margin-top: 20px;
+}
 
+.content_button span{
+    margin-top: 20px;
+    display: block;
+}
+.content_button i{
+    margin-top: 30px;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
