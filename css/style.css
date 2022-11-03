@@ -325,6 +325,11 @@ header{
     width: 70%;
 }
 
+.cont_sect4 h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
 .row_sect4{
     width: 100%;
     display: flex;
@@ -342,3 +347,21 @@ header{
 .col_sect4 p{
     margin-top: 20px;
 }
+
+/* section 5 */
+.cont_sect5{
+    margin: 150px auto;
+     width: 70%;
+}
+
+.row_sect5{
+    width: 60%;
+}
+
+.col_sect5 h2{
+    font-size: 30px;
+    margin-bottom: 35px;
+    
+}
+
+/* section 6 */
