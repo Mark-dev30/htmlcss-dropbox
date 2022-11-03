@@ -317,3 +317,28 @@ header{
     border: 1px solid black;
     margin-top: 15px;
 }
+
+/* section 4 */
+
+.cont_sect4{
+    margin: 0 auto;
+    width: 70%;
+}
+
+.row_sect4{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.col_sect4{
+    width: 30%;
+}
+
+.col_sect4 img{
+    width: 100%;
+}
+
+.col_sect4 p{
+    margin-top: 20px;
+}
