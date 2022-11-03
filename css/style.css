@@ -33,9 +33,16 @@ header{
 }
 
 /* button */
-.button_small{
+.button_white{
+    background-color: white;
+    color: black;
+    border: 0;
+}
+.button_blue{
     background-color: #0061ff;
     color: white;
+}
+.button_small{
     border: 0;
     padding: 10px 10px;
 }
@@ -49,8 +56,6 @@ header{
 }
 
 .button_large{
-    background-color: #0061ff;
-    color: white;
     border: 0;
     padding: 10px 40px;
 }
@@ -96,7 +101,7 @@ header{
 
 /* main */
 
-                                        /* section 1 */
+/* section 1 */
 
 .cont_sect1{
     padding-top: 100px;
@@ -147,7 +152,7 @@ header{
     padding-bottom: 10px;
 }
 
-                                         /* section 2 */
+/* section 2 */
 
 
 .cont_sect2{
@@ -193,7 +198,7 @@ header{
 /* description */
 
 .descr_rateplan{
-    width: 80%;
+    width: 75%;
     margin: 15px auto;
 }
 
@@ -276,4 +281,39 @@ header{
     margin-top: 40px;
 }
 
+/* section 3 */
 
+.cont_sect3{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.row_sect3{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col_sect3_left{
+    width: 56%;
+}
+
+.col_sect3_left img{
+    width: 100%
+}
+
+.col_sect3_right{
+    width: 40%;
+    margin: 60px 0;
+}
+
+.col_sect3_right p{
+    margin: 10px 0;
+}
+
+.col_sect3_right button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    margin-top: 15px;
+}
