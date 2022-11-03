@@ -472,3 +472,84 @@ header{
 .col_sect7 h2{
     color: #610b2d;
 }
+
+/* section faq */
+
+.cont_faq{
+    margin: 100px auto;
+     width: 70%;
+}
+
+
+
+.row_faq_question{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.col_faq{
+    width:90% ;
+}
+
+.col_faq_icon{
+    text-align: center;
+    width:10% ;
+}
+
+.col_faq h2{
+    margin-bottom: 40px;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+}
+
+.cont_footer{
+    margin: 0 auto;
+    width: 80%;
+    padding: 70px 0;
+}
+
+.row_footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.col_footer{
+    width: 15%;
+}
+
+.col_footer h4{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.col_footer li{
+    list-style-type: none;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.col_footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.row_footer_icon{
+    color: white;
+    font-size: 10px;
+}
+
+.row_footer_icon hr{
+    width: 70px;
+    margin: 40px 0;
+    color: #b4d0e7;
+    
+}
+
+
