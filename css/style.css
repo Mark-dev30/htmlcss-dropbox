@@ -7,13 +7,7 @@
 }
 
 /* Utility */
-header{
-    width: 100%;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-}
+
 
 .flex_end{
     justify-content: flex-end;
@@ -103,6 +97,13 @@ header{
 }
 
 /* header */
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
 
 .cont_header{
     width: 100%;
@@ -194,19 +195,21 @@ header{
     padding-bottom: 10px;
 }
 
+.content_button a{
+    text-decoration: none;
+    color: black;
+}
+
 /* section 2 */
 
 
 .cont_sect2{
-    margin: 0 auto;
+    margin: 120px auto;
     width: 70%;
 }
 
 /* row section 2 top */
 
-.col_sect2_top{
-    margin-top: 120px;
-}
 
 .col_sect2_top h2{
     font-size: 35px;
@@ -548,8 +551,7 @@ footer{
 .row_footer_icon hr{
     width: 70px;
     margin: 40px 0;
-    color: #b4d0e7;
-    
+    color: #b4d0e7;   
 }
 
 
