@@ -7,7 +7,6 @@
 
 html{
     scroll-behavior: smooth;
-    transition: 5s;
 }
 
 /* Utility */
@@ -118,8 +117,7 @@ header{
     align-items: center;
 }
 
-.row_header{
-    
+.row_header{  
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -169,22 +167,24 @@ header{
     display: flex;
     margin-top: 50px;
     
+    
 
 }
 .col_sect1_bot_left{
-    width: 40%;
+    width: 30%;
+    
 }
 
 .col_sect1_bot_right{
     position: relative;
-    width: 60%;
+    width: 70%;
 }
 
 .col_sect1_bot_right img{
-    max-width: 90%;
+    width: 90%;
     position: absolute;
-    left: 0;
     
+
 }
 
 .content_button{
@@ -223,6 +223,10 @@ header{
 
 .fatturazione{
     margin: 40px 0;
+}
+
+.fatturazione label{
+    margin-right:  40px;
 }
 
 /* row section 2 center */
@@ -278,7 +282,8 @@ header{
 
 /* users plan */
 .users_rateplan{
-    margin: 40px 0;
+    padding: 40px 0;
+    max-height: 200px;
 }
 
 
