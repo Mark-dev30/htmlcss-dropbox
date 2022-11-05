@@ -556,6 +556,22 @@ header{
     margin: 25px 0;
 }
 
+.row_faq_question p{
+    margin-top: 20px;
+    display: none;
+}
+
+.row_faq_question:hover .accordion{
+    display: block;
+    animation-delay:  2s;
+    
+}
+
+.row_faq_question:hover .icon_rotate{
+    transform: rotate(270deg);
+    animation-duration: 2s;
+}
+
 .col_faq{
     width:90% ;
 }
